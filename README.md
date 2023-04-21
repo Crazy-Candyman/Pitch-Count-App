@@ -1,21 +1,42 @@
-# co5044ee29312e2633fc6d023
+# Baseball Pitch Counter ⚾
 
-Quick start:
+## About the Project
 
+This web app is a simple baseball pitch counter where you can log the number of pitches thrown by the pitcher. After counting, you can log the pitches and it will be displayed below the counter.
+
+## Screenshot
+
+![](/screenshot/pitch_counter_screenshot.png)
+
+## Links
+
+Live URL: [Preview Site](https://crazy-candyman.github.io/Pitch-Count-App/)
+
+## Built With
+
+    - HTML
+    - CSS
+    - JavaScript
+
+**JavaScript code from the solution**
+
+```javascript
+function increment() {
+  count += 1;
+  countEl.textContent = count;
+}
+
+function save() {
+  let countStr = " " + count + " - ";
+  saveEl.textContent += countStr;
+  countEl.textContent = 0;
+  count = 0;
+}
 ```
-$ npm install
-$ npm start
-````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Atrribution
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+This is a project aided by Scrimba while completing the Learn JavaScript Course.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+By Scrimba <br/>
+Edited by [@Crazy-Candyman](https://github.com/Crazy-Candyman)
