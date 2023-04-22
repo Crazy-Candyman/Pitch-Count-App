@@ -45,8 +45,12 @@ button {
   background: darkred;
 }
 
-#save-btn {
+#decrement-btn {
   background: darkblue;
+}
+
+#new-pitcher {
+  background: black;
 }
 
 @media all and (max-width: 460px) {
