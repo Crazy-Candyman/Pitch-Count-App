@@ -5,8 +5,8 @@ let storedPitches = JSON.parse(localStorage.getItem("homepitches"));
 let awayPitches = JSON.parse(localStorage.getItem("awaypitches"));
 
 if (window.location.pathname === "/index.html") {
-  countElHome.textContent = storedPitches;
   count += storedPitches;
+  countElHome.textContent = count;
   if (countElHome.textContent === "") {
     countElHome.textContent = 0;
   }
