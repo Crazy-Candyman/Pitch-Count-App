@@ -7,9 +7,9 @@ let awayPitches = JSON.parse(localStorage.getItem("awaypitches"));
 if (window.location.pathname === "/index.html") {
   count += storedPitches;
   countElHome.textContent = count;
-  if (countElHome.textContent === "") {
-    countElHome.textContent = 0;
-  }
+  // if (countElHome.textContent === "") {
+  //   countElHome.textContent = 0;
+  // }
 }
 
 if (window.location.pathname === "/pagetwo.html") {
