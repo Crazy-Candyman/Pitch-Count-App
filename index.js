@@ -1,21 +1,23 @@
 let countElHome = document.getElementById("count-elHome");
 let countElAway = document.getElementById("count-elAway");
 let count = 0;
-let storedPitches = JSON.parse(localStorage.getItem("homepitches"));
-let awayPitches = JSON.parse(localStorage.getItem("awaypitches"));
 
-if (window.location.pathname === "/index.html") {
+if (
+  window.location.href === "https://crazy-candyman.github.io/Pitch-Count-App/"
+) {
+  let storedPitches = JSON.parse(localStorage.getItem("homepitches"));
   count += storedPitches;
   countElHome.textContent = count;
-} else {
+}
+
+if (
+  window.location.href ===
+  "https://crazy-candyman.github.io/Pitch-Count-App/pagetwo.html"
+) {
+  let awayPitches = JSON.parse(localStorage.getItem("awaypitches"));
   count += awayPitches;
   countElAway.textContent = count;
 }
-
-// if (window.location.pathname === "/pagetwo.html") {
-//   count += awayPitches;
-//   countElAway.textContent = count;
-// }
 
 function incrementHome() {
   count += 1;
