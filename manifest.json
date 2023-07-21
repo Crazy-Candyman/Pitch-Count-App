@@ -1,7 +1,7 @@
 {
   "name": "Pitch Counter",
   "short_name": "Pitch Counter",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "icons": [
     {
       "src": "favicon_io/android-chrome-192x192.png",
@@ -14,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ab1313",
+  "theme_color": "#0377fc",
   "background_color": "#ffffff",
   "display": "standalone"
 }
