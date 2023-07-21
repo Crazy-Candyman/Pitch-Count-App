@@ -2,14 +2,6 @@ let countElHome = document.getElementById("count-elHome");
 let countElAway = document.getElementById("count-elAway");
 let count = 0;
 
-// if (
-//   window.location.href === "https://crazy-candyman.github.io/Pitch-Count-App/"
-// ) {
-//   let storedPitches = JSON.parse(localStorage.getItem("homepitches"));
-//   count += storedPitches;
-//   countElHome.textContent = count;
-// }
-
 if (
   window.location.href ===
   "https://crazy-candyman.github.io/Pitch-Count-App/pagetwo.html"
