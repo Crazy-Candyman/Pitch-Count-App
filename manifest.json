@@ -1,7 +1,7 @@
 {
   "name": "Pitch Counter",
   "short_name": "Pitch Counter",
-  "start_url": "https://crazy-candyman.github.io/Pitch-Count-App/",
+  "start_url": "/",
   "icons": [
     {
       "src": "favicon_io/android-chrome-192x192.png",
