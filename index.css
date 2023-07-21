@@ -8,6 +8,8 @@ html {
     padding: 0;
     font-size: 16px;
     user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     touch-action: none;
 }
 
