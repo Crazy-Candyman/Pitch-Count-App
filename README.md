@@ -37,7 +37,7 @@ function save() {
 }
 ```
 
-## Atrribution
+## Attributions
 
 This is a project that originally started off as a increment counter while completing the
 <a href="https://scrimba.com/learn/learnjavascript">Learn Java Script Course from Scrimba</a>.
