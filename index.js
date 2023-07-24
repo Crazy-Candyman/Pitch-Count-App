@@ -1,7 +1,7 @@
 let countElHome = document.getElementById("count-elHome");
 let countElAway = document.getElementById("count-elAway");
 let count = 0;
-screen.orientation.lock("portrait");
+screen.orientation.lock();
 
 if (
   window.location.href ===
