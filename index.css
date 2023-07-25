@@ -104,5 +104,6 @@ button {
 @media only screen and (orientation:landscape) {
   html {
     transform: rotate(90deg);
+    transform-origin: left top;
   }
 }
