@@ -102,8 +102,7 @@ button {
 }
 
 @media only screen and (orientation:landscape) {
-  html,
-  body {
-    -webkit-transform: rotate(180deg);
+  html {
+    -webkit-transform: rotate(90deg);
   }
 }
