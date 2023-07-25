@@ -100,9 +100,3 @@ button {
     margin-bottom: 0.7em;
   }
 }
-
-@media only screen and (orientation:landscape) {
-  html {
-    -webkit-transform: rotate(90deg);
-  }
-}
