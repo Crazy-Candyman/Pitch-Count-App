@@ -22,7 +22,9 @@ function incrementHome() {
 }
 
 function decrementHome() {
-  count -= 1;
+  if (countElHome.textContent != 0) {
+    count -= 1;
+  }
   countElHome.textContent = count;
   localStorage.setItem("homepitches", JSON.stringify(count));
 }
@@ -42,7 +44,9 @@ function incrementAway() {
 }
 
 function decrementAway() {
+  if (countElAway.textContent != 0) {
   count -= 1;
+  }
   countElAway.textContent = count;
   localStorage.setItem("awaypitches", JSON.stringify(count));
 }
