@@ -100,3 +100,10 @@ button {
     margin-bottom: 0.7em;
   }
 }
+
+@media screen and (orientation:landscape) {
+  *,
+  html {
+    font-size: 14px
+  }
+}
